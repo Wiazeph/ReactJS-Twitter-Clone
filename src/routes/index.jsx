@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "~/layouts/main";
-import Home from "~/pages/Home";
-import Explore from "~/pages/Explore";
-import Notifications from "~/pages/Notifications";
+import Home from "~/pages/home";
+import Explore from "~/pages/explore";
+import Notifications from "~/pages/notifications";
 
 const routes = createBrowserRouter([
   {
