@@ -21,6 +21,26 @@ const routes = createBrowserRouter([
         path: "notifications",
         element: <Notifications />,
       },
+      {
+        path: "messages",
+        element: <div>Mesajlar</div>,
+      },
+      {
+        path: "lists",
+        element: <div>Listeler</div>,
+      },
+      {
+        path: "communities",
+        element: <div>Topluluklar</div>,
+      },
+      {
+        path: "verify",
+        element: <div>Premium</div>,
+      },
+      {
+        path: "profile",
+        element: <div>Profil</div>,
+      },
     ],
   },
 ]);
