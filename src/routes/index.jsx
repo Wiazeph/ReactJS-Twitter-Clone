@@ -30,12 +30,12 @@ const routes = createBrowserRouter([
         element: <div>Listeler</div>,
       },
       {
-        path: "communities",
-        element: <div>Topluluklar</div>,
+        path: "bookmarks",
+        element: <div>Yer İşaretleri</div>,
       },
       {
         path: "verify",
-        element: <div>Premium</div>,
+        element: <div>Onaylanmış</div>,
       },
       {
         path: "profile",

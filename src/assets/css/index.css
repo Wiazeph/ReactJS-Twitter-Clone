@@ -7,3 +7,12 @@
     @apply bg-black text-gray-50;
   }
 }
+
+@layer utilities {
+  .menuHover {
+    @apply hover:bg-[rgba(239,243,244,0.1)] transition-colors;
+  }
+  .menuGroupHover {
+    @apply group-hover:bg-[rgba(239,243,244,0.1)] transition-colors;
+  }
+}

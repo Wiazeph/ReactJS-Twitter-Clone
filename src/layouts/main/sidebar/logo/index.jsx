@@ -5,7 +5,7 @@ const Logo = () => {
     <div className="Logo py-0.5">
       <Link
         to="/"
-        className="flex items-center justify-center w-[52px] h-[52px] rounded-full transition-colors hover:bg-[rgba(239,243,244,0.1)]"
+        className="flex items-center justify-center w-[52px] h-[52px] rounded-full menuHover"
       >
         <svg viewBox="0 0 24 24" width={30} height={30}>
           <path

@@ -111,8 +111,8 @@ const mainMenu = [
     },
   },
   {
-    link: "/communities",
-    title: "Topluluklar",
+    link: "/bookmarks",
+    title: "Yer İşaretleri",
     icon: {
       active: (
         <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
@@ -134,7 +134,7 @@ const mainMenu = [
   },
   {
     link: "/verify",
-    title: "Premium",
+    title: "Onaylanmış",
     icon: {
       active: (
         <svg viewBox="0 0 24 24" width={26.25} height={26.25}>
