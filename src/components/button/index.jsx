@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import { createElement } from "react";
+import PropTypes from "prop-types";
 
 const Button = ({ size, children }) => {
   return createElement(
@@ -17,6 +18,10 @@ const Button = ({ size, children }) => {
     },
     children
   );
+};
+
+Button.propTypes = {
+  size: PropTypes.oneOf(["md", "lg"]),
 };
 
 Button.defaultProps = {
